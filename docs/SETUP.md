@@ -18,7 +18,8 @@ $ psql --user postgres
 
 NOTE: If you get errors when running the above command:
 [Troubleshooting PostgreSQL connection errors](/docs/POSTGRESQL.md)
-
+[If the psql command is not recognized on windows](https://stackoverflow.com/questions/30401460/postgres-psql-not-recognized-as-an-internal-or-external-command)
+[For windows, --user does not work, use --username]
 ```
 postgres=# CREATE DATABASE backendkit;
 postgres=# \q
